@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Exo+2|Tinos');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+body{
+    overflow-x: hidden !important;
+    width: 100%;
+    height: 100%;
+    background-color: white !important;
+  }
+  .bag{
+    overflow-x: hidden !important;
+  }
+  .header{
+    background: url(img/MainFoto.jpg);
+    background-size: cover;
+    height: 90vh;
+  }
+  .navbar-brand{
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+  }
+  .navbar-brand span{
+    color: gold;
+  }
+  .nav-link{
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    margin: 8px;
+  }

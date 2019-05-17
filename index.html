@@ -21,10 +21,10 @@
                     <a class="nav-link" href="#">Главная</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Города</a>
+                    <a class="nav-link" href="citys/">Города</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Заказать</a>
+                    <a class="nav-link order" href="#order">Заказать</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#">О нас</a>
@@ -32,13 +32,13 @@
                 </ul>
             </div>
         </nav>
-        <div class="row pt-4">
+        <div class="row pt-4" id="Title">
             <div class="col-xl-6">
 
             </div>
-            <div class="col-xl-6 px-5 opac">
+            <div class="col-xl-6 px-5" id="firstBlock">
                 <h1 class="text-center HeadTitle">Золотое кольцо России</h1>
-                <p class="textInfo">Хотите узнать исторические корни России и много нового? Желаете полюбоваться красивыми местами своей страны и сделать множество фотографий? Нужно интересно провести свой единственный отпуск в году? Тур по золотому кольцу России поможет вам обсолютно во всём этом! </p>
+                <p class="textInfo" id="TextHead">Хотите узнать исторические корни России и много нового? Желаете полюбоваться красивыми местами своей страны и сделать множество фотографий? Нужно интересно провести свой единственный отпуск в году? Тур по золотому кольцу России поможет вам обсолютно во всём этом! </p>
             </div>
         </div>
     </div>
@@ -51,26 +51,28 @@
             <div class="col-lg-5 px-5 pt-5">
                 <h3 class="text-center HeadText">Интересные экскурсии</h3>
                 <p class="textInfo">Надоели скучные экскурсии в автобусе в котором ещё и жарко? Мы стираем эти старые способы проведения экскурсий. Только живой воздух и знающие своё дело экскурсоводы! В каждом городе мы отобрали для вас лишь самые значимые и интересные достопримечательности, чтобы вы не заснули во время наших рассказов</p>
+                <span class="target1"></span>
             </div>
             <div class="col-lg-6" style="perspective: 1000px;">
-                <div class="dbl-border" style="transform: rotateY(-12deg);">
+                <div class="dbl-border foto1" style="transform: rotateY(-12deg);">
                     <div class="image-wrapper">
-                      <img src="img/gid.jpg" height="300px">
+                        <img src="img/gid.jpg" height="300px">
                     </div>
                   </div>
             </div>
         </div>
         <div class="row my-5">
-            <div class="col-lg-6" style="perspective: 1000px; overflow: hidden;">
-                <div class="dbl-border" style="transform: rotateY(12deg);">
+            <div class="col-lg-6" id="order2" style="perspective: 1000px; overflow: hidden;">
+                <div class="dbl-border foto2" style="transform: rotateY(12deg);">
                     <div class="image-wrapper">
-                      <img src="img/relax.jpg" height="300px">
+                        <img src="img/relax.jpg" height="300px">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 px-5 pt-5">
+            <div class="col-lg-5 px-5 pt-5" id="order1">
                 <h3 class="text-center HeadText">Лучший отдых</h3>
                 <p class="textInfo">Наши клиенты всегда отдыхают и ночуют в одних из лучших отелей городов. Мы делаем всё возможное, чтобы после экскурсий вы с комфортом могли провести оставшееся время и на следующий день с полными силами продолжили свои экскурсии</p>
+                <span class="target2"></span>
             </div>
             <div class="col-lg-1"></div>
         </div>
@@ -79,21 +81,23 @@
             <div class="col-lg-5 px-5 pt-5">
                 <h3 class="text-center HeadText">Удобное перемещение</h3>
                 <p class="textInfo">Чтобы перемещаться по городам, наше агенство выбрало исключительно самые лучшие автобусы, доступные на российском рынке. Внутри каждого автобуса вас обязательно ждёт wi-fi, кондеционер, удобные пасажирские места и квалефицированные водители с многолетним стажем</p>
+                <span class="target3"></span>
             </div>
             <div class="col-lg-6" style="perspective: 1000px;">
-                <div class="dbl-border" style="transform: rotateY(-12deg);">
+                <div class="dbl-border foto3" style="transform: rotateY(-12deg);">
                     <div class="image-wrapper">
-                      <img src="img/bus.jpg" height="300px">
+                        <img src="img/bus.jpg" height="300px">
                     </div>
                   </div>
             </div>
         </div>
         <div class="container-fuild fonPlus mt-5">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5">
 
                 </div>
-                <div class="col-md-6 my-5 d-flex">
+                <div class="col-md-7 my-5 d-flex">
+                    <span class="target4"></span>
                     <div class="Block">
                         <h3 class="text-center HeadText" style="font-size: 35px;">В ваш тур мы включили:</h3>
                         <ol class="spisok">
@@ -109,10 +113,11 @@
         </div>
         <div class="container-fuild mt-5">
             <div class="row">
-                <div class="col-md-6 d-flex">
-                    <img src="img/GoldRing.png" class="FotoForma" width="75%">
+                <div class="col-md-6">
+                    <img src="img/GoldRing.png" class="FotoForma mx-auto d-block" width="75%">
+                    <span class="target5"></span>
                 </div>
-                <div class="col-md-5 px-5">
+                <div class="col-md-5 px-5 form1">
                     <p class="text-center HeadText" style="font-size: 30px;">Оставьте заявку уже сегодня и мы перезвоним вам</p>
                     <form>
                         <div class="form-row">
@@ -138,14 +143,14 @@
             </div>
             <div class="row mb-0">
                 <div class="col-12">
-                    <p class="text-center mb-0">Собственность Дмитрия Белова</p>
+                    <p class="text-center mb-0" id="order">Собственность Дмитрия Белова</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="jquery-1.11.0.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
