@@ -26,25 +26,10 @@ body{
     font-size: 20px;
     margin: 8px;
 }
-img{
-    opacity: 0.8;
-}
-img:hover{
-    opacity: 1;
-}
-a{
-    text-decoration: none !important;
-}
-img ~ p{
-    color: black;
+.HeadText{
     font-family: 'PT Serif', serif;
-    font-size: 16px;
+    font-size: 30px;
 }
-.fon{
-    background-size: cover;
-    width: 100%;
-}
-.block{
-    background-color: rgba(255, 255, 255, 0.85);
-    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+.discont{
+    font-family: 'Exo 2', sans-serif;
 }

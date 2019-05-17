@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Города</title>
 </head>
 <body>
 <div class="bag">
 <div class="container-fuild">
-    <nav class="navbar navbar-expand-lg navbar-light">
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Оставить заявку</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+           <form>
+                <div class="form-row">
+                    <div class="col-6 pl-0">
+                        <input type="name" class="form-control" placeholder="Имя">
+                    </div>
+                    <div class="col-6 pr-0">
+                        <input type="text" class="form-control" placeholder="Фамилия">
+                    </div>
+                </div>
+                <div class="form-row my-3">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-row my-3">
+                    <input type="number" class="form-control" placeholder="Номер телефона">
+                </div>
+                <div class="form-row my-3">
+                    <button type="button" class="btn btn-primary">Отправить заявку</button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"><span>Gold</span> Ring</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,14 +59,172 @@
                 <a class="nav-link" href="#">Города</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link order" href="#order">Заказать</a>
+                <a class="nav-link order" data-toggle="modal" data-target="#exampleModal" href="#">Заказать</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">О нас</a>
+                <a class="nav-link" href="../about/">О нас</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <div class="container-fuild">
+        <div class="row my-4">
+            <div class="col-6 col-sm-3 text-center">
+                <a href="#yar">
+                    <img src="../img/yaroslavl.png" alt="" width="100px" height="110px">
+                    <p>Ярославль</p>
+                </a>
+            </div>
+            <div class="col-6 col-sm-3 text-center">
+                <a href="#ivan">
+                    <img src="../img/ivanovo.jpg" alt="" width="100px" height="110px">
+                    <p>Иваново</p>
+                </a>
+            </div>
+            <div class="col-6 col-sm-3 text-center">
+                <a href="#kost">
+                    <img src="../img/kostroma.jpg" alt="" width="100px" height="110px">
+                    <p>Кострома</p>
+                </a>
+            </div>
+            <div class="col-6 col-sm-3 text-center">
+                <a href="#per">
+                    <img src="../img/perslavl.jpg" alt="" width="100px" height="110px">
+                    <p>Переславль-Зеленский</p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-sm-3 text-center">
+                <a href="#rost">
+                    <img src="../img/rostov.jpg" alt="" width="100px" height="110px">
+                    <p>Ростов</p>
+                </a>
+            </div>
+            <div class="col-6 col-sm-3 text-center">
+                <a href="#serg">
+                    <img src="../img/sergiev.jpg" alt="" width="100px" height="110px">
+                    <p>Сергиев Посад</p>
+                </a>
+            </div>
+            <div class="col-6 col-sm-3 text-center">
+                <a href="#syzd">
+                    <img src="../img/syzdal.jpg" alt="" width="100px" height="110px">
+                    <p>Суздаль</p>
+                </a>
+            </div>
+            <div class="col-6 col-sm-3 text-center">
+                <a href="#vlad">
+                    <img src="../img/vladimir.jpg" alt="" width="100px" height="110px">
+                    <p>Владимир</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fuild fon" style="background: url(../img/YarFoto.jpg)">
+    <div class="row py-5">
+        <div class="col-md-6">
+            <div class="block px-5 py-3 mx-5">
+                <h1 class="text-center" id="yar">Ярославль</h1>
+                <p>Ярославль — один из старейших русских городов, основанный в XI веке и достигший своего расцвета в XVII веке; в 2010 году город отметил своё тысячелетие. День города в Ярославле обычно отмечается в последнюю субботу мая (в 2010 году в связи с тысячелетием города празднование проводилось с 10 по 12 сентября). Исторический центр города, расположенный у слияния рек Волги и Которосли, является объектом Всемирного наследия ЮНЕСКО. Ярославль претендует на статус «столицы» Золотого кольца России</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+    </div>
+</div>
+<div class="container-fuild fon" style="background: url(../img/IvanFoto.jpg)">
+    <div class="row py-5">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+            <div class="block px-5 py-3 mx-5">
+                <h1 class="text-center" id="ivan">Иваново</h1>
+                <p>Первое упоминание о селе Иваново относится к 1608 году. В 1871 году село Иваново и появившийся в 1853 году путём слияния нескольких слобод Вознесенский посад были объединены в город Иваново-Вознесенск, ставший ведущим текстильным центром России. В Иваново-Вознесенске возникло мощное революционное движение, сыгравшее важную роль в Первой Русской революции, во время которой здесь появился первый в России общегородской совет. В 1932 году город был переименован в Иваново.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fuild fon" style="background: url(../img/KostrFoto.jpg)">
+    <div class="row py-5">
+        <div class="col-md-6">
+            <div class="block px-5 py-3 mx-5">
+                <h1 class="text-center" id="kost">Кострома</h1>
+                <p>Кострома основана в XII веке, а в XIII веке стала центром удельного княжества. Исторический центр города в основном сохранил образцовый в своём роде ансамбль эпохи классицизма конца XVIII—XIX в. Из памятников допетровской эпохи наиболее интересны комплексы Ипатьевского и Богоявленско-Анастасииного монастырей. Город входит в список поселений, имеющих официальный статус «исторических», и традиционно включается в «Золотое кольцо России».</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+    </div>
+</div>
+<div class="container-fuild fon" style="background: url(../img/PereFoto.jpg)">
+    <div class="row py-5">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+            <div class="block px-5 py-3 mx-5">
+                <h1 class="text-center" id="per">Переславль-Зеленский</h1>
+                <p>Город расположен в 140 км от Москвы, на трассе М8 «Холмогоры» Москва — Архангельск, на берегу Плещеева озера, в месте впадения в него реки Трубеж. Центр национального парка «Плещеево озеро». Километровый знак «140 км» находится в центре города на повороте с улицы Свободы на Ростовскую улицу. Конечная железнодорожная станция на грузовой ветке от Берендеева (линия Москва — Ярославль).</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fuild fon" style="background: url(../img/RostFoto.jpg)">
+    <div class="row py-5">
+        <div class="col-md-6">
+            <div class="block px-5 py-3 mx-5">
+                <h1 class="text-center" id="rost">Ростов</h1>
+                <p>Один из древнейших городов России, официальное летосчисление ведёт от 862 года. С X века Ростов являлся одним из центров Ростово-Суздальской земли. В XI — начале XIII веков входил во Владимиро-Суздальское княжество. В Ипатьевской летописи при описании событий 1151 года назван Ростовом Великим. В 1207—1474 годах — центр Ростовского княжества. В 1777 году получил статус города. Является городом областного значения, при этом в рамках Ростовского муниципального района образует муниципальное образование Ростов со статусом городского поселения как единственный населённый пункт в составе последнего</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+    </div>
+</div>
+<div class="container-fuild fon" style="background: url(../img/SergFoto.jpg)">
+    <div class="row py-5">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+            <div class="block px-5 py-3 mx-5">
+                <h1 class="text-center" id="serg">Сергиев Посад</h1>
+                <p>Се́ргиев Поса́д — город в Московской области России. Административный центр Сергиево-Посадского городского округа Московской области.Включён в состав Золотого кольца России в 1969 году (единственный город, расположенный в Московской области, среди городов включённых в состав Золотого кольца). В городе находится ставропигиальный мужской монастырь Русской православной церкви, объект Всемирного наследия ЮНЕСКО — Троице-Сергиева лавра.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fuild fon" style="background: url(../img/SyzdFoto.jpg)">
+    <div class="row py-5">
+        <div class="col-md-6">
+            <div class="block px-5 py-3 mx-5">
+                <h1 class="text-center" id="syzd">Суздаль</h1>
+                <p>Су́здаль — город во Владимирской области России, административный центр Суздальского района. Входит в Золотое кольцо России. Образует одноимённое муниципальное образование город Суздаль со статусом городского поселения как единственный населённый пункт в его составе. Награждён орденом «Знак Почёта» за сохранение культурного наследия и развитие туризма (1974).</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+    </div>
+</div>
+<div class="container-fuild fon" style="background: url(../img/VladFoto.jpg)">
+    <div class="row py-5">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+            <div class="block px-5 py-3 mx-5">
+                <h1 class="text-center" id="vlad">Владимир</h1>
+                <p>Влади́мир (др.-рус. Володимѣрь) — город в России, административный центр Владимирской области и городского округа город Владимир. В XII—XIV веках — столица Великого княжества Владимирского. Один из крупнейших туристических центров европейской части России. Входит в Золотое кольцо России. Расположен преимущественно на левом берегу реки Клязьмы, в 176 км к востоку от Москвы. Транспортный узел на автомобильной (М7 «Волга») и железнодорожной (Нижегородский ход Транссиба) магистралях.</p>
+            </div>
+        </div>
+    </div>
 </div>
 </div>
 <script src="../jquery-1.11.0.js"></script>
