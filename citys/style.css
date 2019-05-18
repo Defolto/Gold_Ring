@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Exo+2|Tinos');
 @import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
 body{
     overflow-x: hidden !important;
     width: 100%;

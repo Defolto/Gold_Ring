@@ -33,3 +33,21 @@ body{
 .discont{
     font-family: 'Exo 2', sans-serif;
 }
+.foto{
+    background-size: cover;
+    width: 80%;
+    border-radius: 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.full{
+    transform: translateX(-100%);
+    animation: full .8s cubic-bezier(0.645, 0.045, 0.355, 1) forwards 0.4s;
+}
+@keyframes full{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
