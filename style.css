@@ -1,7 +1,8 @@
+/* стили */
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Exo+2|Tinos');
 @import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* Плавная прокрутка */
 }
 body{
   overflow-x: hidden !important;
@@ -42,6 +43,7 @@ body{
   font-family: 'Exo 2', sans-serif;
   font-size: 17px;
 }
+/* При экране от 1200px и меньше */
 @media(max-width: 1200px){
   .HeadTitle{
     font-size: 27px;

@@ -1,3 +1,4 @@
+// Для мобильной версии
 $(document).ready(function () {
     if(window.innerWidth < 850){
         $(".block").removeClass("mx-5");

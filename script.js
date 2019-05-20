@@ -1,9 +1,11 @@
 $(document).ready(function () {
+  // Фиксирование точек начала анимации
   var target1 = $('.target1');
   var target2 = $('.target2');
   var target3 = $('.target3');
   var target4 = $('.target4');
   var target5 = $('.target5');
+  // Отключение анимаций, если ширина монитора < 1000px
   if(window.innerWidth > 1000){
     var targetPos1 = target1.offset().top;
     var winHeight1 = $(window).height();
@@ -20,6 +22,7 @@ $(document).ready(function () {
     var targetPos5 = target5.offset().top;
     var winHeight5 = $(window).height();
     var scrollToElem5 = targetPos5 - winHeight5;
+    // Скрыли и показали при достижении метки
     $('.foto1').hide();
     $(window).scroll(function(){
         var winScrollTop1 = $(this).scrollTop();
@@ -56,16 +59,20 @@ $(document).ready(function () {
         }
     });
   }
+  // Перемена блоков местами
     if(window.innerWidth < 993){
         $('#order1').addClass("order-1");
         $('#order2').addClass("order-2");
     }
+    // Начальная анимация
     $("#firstBlock").hide();
     $("#firstBlock").slideDown(700);
+    // уменьшение картинки при < 520px
     if(window.innerWidth < 520){
         $(".image-wrapper > img").attr("height", "180");
     }
 });
+// Уборка анимаций и прокрутка до формы
 $(".order").click(function () {
   $(".foto1").show();
   $(".foto2").show();
